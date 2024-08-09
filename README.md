@@ -11,6 +11,7 @@
 
 ## for what
 
+- `just in development...`
 - a task runner written in Go for golang project
 
 ## Features
