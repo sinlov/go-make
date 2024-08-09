@@ -11,7 +11,7 @@
 
 ## for what
 
-- this project used to cli with golang
+- a task runner written in Go for golang project
 
 ## Features
 
@@ -26,11 +26,6 @@ $ go install -v github.com/sinlov/go-make/cmd/go-make@latest
 # install version v1.0.0
 $ go install -v github.com/sinlov/go-make/cmd/go-make@v1.0.0
 ```
-
-- use this template, replace list below and add usage
-    - `github.com/sinlov/go-make` to your package name
-    - `sinlov` to your owner name
-    - `go-make` to your project name
 
 ## dev
 
