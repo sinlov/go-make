@@ -1,0 +1,28 @@
+{
+  "name": "go-make",
+  "version": "1.0.0",
+  "description": "template of golang cli tools",
+  "directories": {
+    "doc": "doc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinlov/go-make.git"
+  },
+  "keywords": [
+    "go",
+    "make",
+    "docker",
+    "action"
+  ],
+  "author": {
+    "name": "sinlov",
+    "email": "",
+    "url": "https://github.com/sinlov/go-make"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/sinlov/go-make/issues"
+  },
+  "homepage": "https://github.com/sinlov/go-make#readme"
+}
