@@ -3,7 +3,7 @@ package cli
 import (
 	"fmt"
 	"github.com/sinlov/go-make/command"
-	"github.com/sinlov/go-make/command/subcommand_new"
+	"github.com/sinlov/go-make/command/subcommand_init"
 	"github.com/sinlov/go-make/internal/pkg_kit"
 	"github.com/sinlov/go-make/internal/urfave_cli"
 	"github.com/sinlov/go-make/internal/urfave_cli/cli_exit_urfave"
@@ -13,7 +13,7 @@ import (
 )
 
 const (
-	copyrightStartYear = "2023"
+	copyrightStartYear = "2024"
 	defaultExitCode    = 1
 )
 
@@ -47,7 +47,7 @@ func NewCliApp(buildId string) *cli.App {
 	app.After = command.GlobalAfterAction
 
 	var appCommands []*cli.Command
-	appCommands = urfave_cli.UrfaveCliAppendCliCommand(appCommands, subcommand_new.Command())
+	appCommands = urfave_cli.UrfaveCliAppendCliCommand(appCommands, subcommand_init.Command())
 
 	app.Commands = appCommands
 

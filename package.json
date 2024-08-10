@@ -1,7 +1,7 @@
 {
   "name": "go-make",
   "version": "1.0.0",
-  "description": "template of golang cli tools",
+  "description": "a task runner written in Go for golang project",
   "directories": {
     "doc": "doc"
   },

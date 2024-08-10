@@ -1,0 +1,18 @@
+mono_repo_path:
+    - ""
+global_env:
+    GO111MODULE: "on"
+    GONOPROXY: '*.gitlab.com,*.gitee.com'
+    GONOSUMDB: '*.gitlab.com,*.gitee.com'
+    GOPRIVATE: '*.gitlab.com,*.gitee.com'
+steps:
+    - name: env
+      omitted: true
+      commands:
+        - go env
+        - go version
+    - name: dep
+      commands:
+        - go mod verify
+        - go mod tidy -v
+        - go mod download -x

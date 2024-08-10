@@ -9,6 +9,7 @@ require (
 	github.com/sinlov-go/unittest-kit v1.1.0
 	github.com/stretchr/testify v1.9.0
 	github.com/urfave/cli/v2 v2.27.3
+	gopkg.in/yaml.v3 v3.0.1
 )
 
 require (
@@ -20,5 +21,4 @@ require (
 	github.com/xo/terminfo v0.0.0-20210125001918-ca9a967f8778 // indirect
 	github.com/xrash/smetrics v0.0.0-20240521201337-686a1a2994c1 // indirect
 	golang.org/x/sys v0.19.0 // indirect
-	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
