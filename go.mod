@@ -1,9 +1,9 @@
 module github.com/sinlov/go-make
 
-go 1.19
+go 1.21
 
 require (
-	github.com/Masterminds/semver/v3 v3.3.1
+	github.com/Masterminds/semver/v3 v3.4.0
 	github.com/gookit/color v1.5.4
 	github.com/sebdah/goldie/v2 v2.5.5
 	github.com/sinlov-go/unittest-kit v1.2.1
